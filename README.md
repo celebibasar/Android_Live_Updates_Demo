@@ -46,22 +46,20 @@ Two main buttons:
 * Starts or updates the foreground service based on UI interactions
 * Contains the Compose UI with the two control buttons
 
-### 2. OrderLiveService
+### 2. DeliveryStatus
 
-* Runs as a foreground service
-* Builds and updates the notification
-* Stops itself when the delivery is **Delivered** or **Cancelled**
+* Defines delivery stages
+* Contains progress percentages
+* Manages UI text and emojis
 
-### 3. Notification with Progress Bar
+### 3. OrderLiveService
 
-Implemented using:
-
-```kotlin
-.setProgress(100, progress, false)
-```
+* Creates notification channels
+* Builds Live Update notifications
+* Handles Android version compatibility
 
 ---
 
 ## Contributing
 
-Pull requests are welcome! If you want to improve the progress system, add animation, or extend Live Activity behavior, feel free to contribute.
+Pull requests are welcome! If you'd like to improve the progress system, add animation, or extend Live Activity behavior, feel free to contribute.
