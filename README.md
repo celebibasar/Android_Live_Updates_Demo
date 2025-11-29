@@ -6,7 +6,7 @@ A comprehensive demonstration of Android's Live Update notifications using Kotli
 
 ### Features
 
-Live Update Notifications: Implements Android 14+ Live Update API with promoted notifications
+Live Update Notifications: Implements Android 16+ Live Update API with promoted notifications
 Delivery Status Tracking: Five-stage delivery tracking system
 
 * 📋 Order Received (20%)
